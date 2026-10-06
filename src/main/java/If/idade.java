@@ -6,8 +6,14 @@ public class idade {
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Digite sua idade");
+        int idade = sc.nextInt();
+
          if (idade >= 18) {
              System.out.println("maior de idade");
+         } else {
+             System.out.println("menor de idade");
+         }
 
     }
 }
