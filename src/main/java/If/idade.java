@@ -14,6 +14,7 @@ public class idade {
          } else {
              System.out.println("menor de idade");
          }
-
+        sc.close();
     }
+
 }
